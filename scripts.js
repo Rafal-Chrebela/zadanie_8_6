@@ -9,8 +9,6 @@ if (value < 0) {
   console.log('Wynik ujemny')
 } if (value >= 1) {
   console.log('Wynik dodatni')
-} if (value != 0 ) {
-  console.log('Wynik nie jest równy zero')
-} if (value == 0 ) {
+} if (value === 0 ) {
   console.log('Wynik jest równy zero')
 }
